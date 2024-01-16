@@ -34,6 +34,6 @@ iface = gr.Interface(
     outputs=gr.Textbox(),
     live=True,
     title="BERT Sentiment Analysis (CPU)",
-    description="Enter a text and get sentiment prediction. Model runs on CPU.",
+    description="Enter a text and get sentiment prediction.",
 )
 iface.launch()
